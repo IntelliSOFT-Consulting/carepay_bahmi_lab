@@ -100,7 +100,7 @@ function displayHelp(){
 <![endif]-->
 
 <div id="header">
-  	<div id="oe-logo" style="width: 89px" onclick="navigateToHomePage();"><img src="images/openelis_logo.png" title="OpenELIS" alt="OpenELIS" /></div>
+  	<div id="oe-logo" style="width: 89px" onclick="navigateToHomePage();"><img src="images/openelis_logo.png" title="MTIBA" alt="MTIBA" /></div>
 	<div class="header-def">
  		<div style="display: block">
 			<%
