@@ -11,7 +11,7 @@
 
 <style>
 P {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Montserrat Regular";
   font-size:90%;
   color:#000000;
   background-color : #F7F7E7;
@@ -22,19 +22,19 @@ DIV {
 }
 
 A:link {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Montserrat Regular";
   font-size:90%; 
   color:#663300;
   BACKGROUND-COLOR: #f7f7e7;
   }
 A:active {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Montserrat Regular";
   font-size:90%; 
   color:#ff6600;
    BACKGROUND-COLOR: #f7f7e7;
   }
 A:visited {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Montserrat Regular";
   font-size:90%; 
   color:#996633;
   BACKGROUND-COLOR: #f7f7e7;
@@ -42,7 +42,7 @@ A:visited {
 
 A.navigation:link
 {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Montserrat Regular";
   font-size:65%; 
   color:#996633;
   BACKGROUND-COLOR: #f7f7e7;
@@ -50,7 +50,7 @@ A.navigation:link
 
 A.navigation:active
 {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Montserrat Regular";
   font-size:65%; 
   color:#996633;
    BACKGROUND-COLOR: #cccc99;
@@ -58,7 +58,7 @@ A.navigation:active
 
 A.navigation:visited
 {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Montserrat Regular";
   font-size:65%; 
   color:#996633;
    BACKGROUND-COLOR: #f7f7e7;
@@ -66,7 +66,7 @@ A.navigation:visited
   
 .jstree_link
   {
-    font-family: Tahoma, Geneva, Arial, Helvetica, sans-serif;
+    font-family: "Montserrat Regular";
     font-size: 11px;
     color: #000000;
     text-decoration: none;
@@ -74,7 +74,7 @@ A.navigation:visited
 
 .pagenode_link
   {
-    font-family: Tahoma, Geneva, Arial, Helvetica, sans-serif;
+    font-family: "Montserrat Regular";
     font-size: 11px;
     color: #008000;
 	text-decoration: none;
@@ -93,7 +93,7 @@ A.navigation:visited
 
 .tree_popup_text
    {
-       font-family: Tahoma, Geneva, Arial, Helvetica, sans-serif;
+       font-family: "Montserrat Regular";
        font-size: 11px;
    }
 

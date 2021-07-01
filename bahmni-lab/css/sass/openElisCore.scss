@@ -62,7 +62,7 @@ table {
 /***** Overrides of default browser styles *****/
 body {
   /* FIXME - set margin to 0 and then define main content area with margin/padding */
-  font-family: Arial, Helvetica, sans-serif;
+  font-family:"Montserrat Regular";
   font-size:13px;
   color:#444;
   background-color : #FFFFFF;
@@ -116,10 +116,10 @@ textarea{
   width:100%;
 }
 table {
-  font-size: 13px;
+  font-size: 14px;
   font-style: normal;
   background-color: #FFFFFF;
-  color: #555555;
+  color:#6CB33F;
   border: #ccc999 none;
 }
 th {

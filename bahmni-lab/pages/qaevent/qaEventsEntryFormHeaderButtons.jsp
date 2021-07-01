@@ -390,7 +390,7 @@ function nextAction(form, ignoreFields) {
         if (viewMode.equals(normal)) { 
     %>
 	<tr><%--bugzilla 2501--%>
-	    <td style="font-family: Arial, Helvetica, sans-serif; font-weight: bold; font-size:140%; color:#336699;BACKGROUND-COLOR: #FFFFFF;"> 
+	    <td style="font-family: Montserrat Regular; font-weight: bold; font-size:140%; color:#336699;BACKGROUND-COLOR: #FFFFFF;"> 
 				<logic:notEmpty
 					name="<%=IActionConstants.PAGE_SUBTITLE_KEY%>">
 					<bean:write name="<%=IActionConstants.PAGE_SUBTITLE_KEY%>" />
