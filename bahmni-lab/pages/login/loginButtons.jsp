@@ -15,7 +15,7 @@
     <td width="110" noWrap>&nbsp;</td>
     <td colspan="2" align="left">
         <%--bugzilla 2376--%>
-        <html:button property="save" styleId="submitButton" onclick="submitOnClick(this);return false;">
+        <html:button property="save" styleId="submitButton" style="background-color: #A6D588;" onclick="submitOnClick(this);return false;">
   			       <bean:message key="label.button.submit"/>
   		</html:button>
         <html:button property="changePassword" styleId="changePasswordButton" onclick="setAction(window.document.forms[0], 'ChangePassword', 'no', '');" >
