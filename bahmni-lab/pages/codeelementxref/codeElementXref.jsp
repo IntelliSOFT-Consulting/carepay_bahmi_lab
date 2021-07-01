@@ -29,7 +29,7 @@ if (request.getAttribute(IActionConstants.ALLOW_EDITS_KEY) != null) {
 %>
 <style>
 H1.codeElementXrefH1 {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Montserrat Regular";
   font-size:170%;
   color:#336699;
   background-color : #f7f7e7;

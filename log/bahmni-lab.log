@@ -7617,3 +7617,391 @@ INFO: Starting ProtocolHandler ["http-nio-8052"]
 2021-07-01 10:22:46,719 WARN  [ELIS][ValidatorResources] Form 'WebServiceForm' not found for locale 'en_US'
 2021-07-01 10:22:54,109 WARN  [ELIS][ValidatorResources] Form 'WebServiceForm' not found for locale 'en_US'
 128356 [Thread-6] INFO org.quartz.core.QuartzScheduler - Scheduler OpenELIS-Scheduler_$_NON_CLUSTERED started.
+Jul 01, 2021 10:38:32 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-nio-8052"]
+Jul 01, 2021 10:38:32 AM org.apache.tomcat.util.net.NioSelectorPool getSharedSelector
+INFO: Using a shared selector for servlet write/read
+Jul 01, 2021 10:38:32 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Tomcat
+Jul 01, 2021 10:38:32 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/8.0.12
+Jul 01, 2021 10:38:33 AM org.apache.catalina.startup.ContextConfig getDefaultWebXmlFragment
+INFO: No global web.xml found
+61 [localhost-startStop-1] INFO org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+112 [localhost-startStop-1] INFO org.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+113 [localhost-startStop-1] INFO org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.2.0 created.
+114 [localhost-startStop-1] INFO org.quartz.simpl.RAMJobStore - RAMJobStore initialized.
+115 [localhost-startStop-1] INFO org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.2.0) 'OpenELIS-Scheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 4 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+116 [localhost-startStop-1] INFO org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'OpenELIS-Scheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+116 [localhost-startStop-1] INFO org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.2.0
+2021-07-01 10:38:39,695 WARN  [ELIS][RootClass] composite-id class does not override equals(): us.mn.state.health.lims.analyzerimport.valueholder.AnalyzerTestMappingPK
+2021-07-01 10:38:39,696 WARN  [ELIS][RootClass] composite-id class does not override hashCode(): us.mn.state.health.lims.analyzerimport.valueholder.AnalyzerTestMappingPK
+2021-07-01 10:38:39,697 WARN  [ELIS][RootClass] composite-id class does not override equals(): us.mn.state.health.lims.userrole.valueholder.UserRolePK
+2021-07-01 10:38:39,698 WARN  [ELIS][RootClass] composite-id class does not override hashCode(): us.mn.state.health.lims.userrole.valueholder.UserRolePK
+2021-07-01 10:38:39,700 WARN  [ELIS][RootClass] composite-id class does not override equals(): us.mn.state.health.lims.address.valueholder.AddressPK
+2021-07-01 10:38:39,700 WARN  [ELIS][RootClass] composite-id class does not override hashCode(): us.mn.state.health.lims.address.valueholder.AddressPK
+2021-07-01 10:38:39,705 WARN  [ELIS][RootClass] composite-id class does not override hashCode(): us.mn.state.health.lims.requester.valueholder.SampleRequester
+2021-07-01 10:38:39,706 WARN  [ELIS][RootClass] composite-id class does not override equals(): us.mn.state.health.lims.testcodes.valueholder.TestSchemaPK
+2021-07-01 10:38:39,706 WARN  [ELIS][RootClass] composite-id class does not override hashCode(): us.mn.state.health.lims.testcodes.valueholder.TestSchemaPK
+2021-07-01 10:38:39,711 WARN  [ELIS][RootClass] composite-id class does not override equals(): us.mn.state.health.lims.address.valueholder.AddressPK
+2021-07-01 10:38:39,712 WARN  [ELIS][RootClass] composite-id class does not override hashCode(): us.mn.state.health.lims.address.valueholder.AddressPK
+2021-07-01 10:38:39,713 WARN  [ELIS][RootClass] composite-id class does not override equals(): us.mn.state.health.lims.testcodes.valueholder.OrganizationSchemaPK
+2021-07-01 10:38:39,713 WARN  [ELIS][RootClass] composite-id class does not override hashCode(): us.mn.state.health.lims.testcodes.valueholder.OrganizationSchemaPK
+Jul 01, 2021 10:38:45 AM org.apache.catalina.util.SessionIdGeneratorBase createSecureRandom
+INFO: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [3,852] milliseconds.
+2021-07-01 10:38:45,971 ERROR [ELIS][FormSet] Form 'organizationForm' already exists in FormSet[default] - ignoring.
+Jul 01, 2021 10:38:46 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-nio-8052"]
+2021-07-01 10:38:46,428 WARN  [ELIS][ValidatorResources] Form 'WebServiceForm' not found for locale 'en_US'
+8120 [http-nio-8052-exec-1] WARN us.mn.state.health.lims.ws.WebServiceAction - Unauthorized atomfeed access attempt from 127.0.0.1 using username 
+2021-07-01 10:38:46,527 WARN  [ELIS][ValidatorResources] Form 'WebServiceForm' not found for locale 'en_US'
+2021-07-01 10:39:37,237 WARN  [ELIS][ValidatorResources] Form 'loginValidateForm' not found for locale 'en_GB'
+2021-07-01 10:39:37,268 WARN  [ELIS][ValidatorResources] Form 'LabDashboardForm' not found for locale 'en_GB'
+2021-07-01 10:39:54,971 WARN  [ELIS][ValidatorResources] Form 'LabDashboardForm' not found for locale 'en_GB'
+2021-07-01 10:40:04,262 WARN  [ELIS][ValidatorResources] Form 'NonConformityForm' not found for locale 'en_GB'
+123066 [Thread-6] INFO org.quartz.core.QuartzScheduler - Scheduler OpenELIS-Scheduler_$_NON_CLUSTERED started.
+Jul 01, 2021 10:45:26 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-nio-8052"]
+Jul 01, 2021 10:45:26 AM org.apache.tomcat.util.net.NioSelectorPool getSharedSelector
+INFO: Using a shared selector for servlet write/read
+Jul 01, 2021 10:45:26 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Tomcat
+Jul 01, 2021 10:45:26 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/8.0.12
+Jul 01, 2021 10:45:27 AM org.apache.catalina.startup.ContextConfig getDefaultWebXmlFragment
+INFO: No global web.xml found
+160 [localhost-startStop-1] INFO org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+275 [localhost-startStop-1] INFO org.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+275 [localhost-startStop-1] INFO org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.2.0 created.
+277 [localhost-startStop-1] INFO org.quartz.simpl.RAMJobStore - RAMJobStore initialized.
+282 [localhost-startStop-1] INFO org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.2.0) 'OpenELIS-Scheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 4 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+284 [localhost-startStop-1] INFO org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'OpenELIS-Scheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+284 [localhost-startStop-1] INFO org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.2.0
+2021-07-01 10:45:35,538 WARN  [ELIS][RootClass] composite-id class does not override equals(): us.mn.state.health.lims.analyzerimport.valueholder.AnalyzerTestMappingPK
+2021-07-01 10:45:35,538 WARN  [ELIS][RootClass] composite-id class does not override hashCode(): us.mn.state.health.lims.analyzerimport.valueholder.AnalyzerTestMappingPK
+2021-07-01 10:45:35,540 WARN  [ELIS][RootClass] composite-id class does not override equals(): us.mn.state.health.lims.userrole.valueholder.UserRolePK
+2021-07-01 10:45:35,540 WARN  [ELIS][RootClass] composite-id class does not override hashCode(): us.mn.state.health.lims.userrole.valueholder.UserRolePK
+2021-07-01 10:45:35,542 WARN  [ELIS][RootClass] composite-id class does not override equals(): us.mn.state.health.lims.address.valueholder.AddressPK
+2021-07-01 10:45:35,542 WARN  [ELIS][RootClass] composite-id class does not override hashCode(): us.mn.state.health.lims.address.valueholder.AddressPK
+2021-07-01 10:45:35,549 WARN  [ELIS][RootClass] composite-id class does not override hashCode(): us.mn.state.health.lims.requester.valueholder.SampleRequester
+2021-07-01 10:45:35,551 WARN  [ELIS][RootClass] composite-id class does not override equals(): us.mn.state.health.lims.testcodes.valueholder.TestSchemaPK
+2021-07-01 10:45:35,551 WARN  [ELIS][RootClass] composite-id class does not override hashCode(): us.mn.state.health.lims.testcodes.valueholder.TestSchemaPK
+2021-07-01 10:45:35,555 WARN  [ELIS][RootClass] composite-id class does not override equals(): us.mn.state.health.lims.address.valueholder.AddressPK
+2021-07-01 10:45:35,556 WARN  [ELIS][RootClass] composite-id class does not override hashCode(): us.mn.state.health.lims.address.valueholder.AddressPK
+2021-07-01 10:45:35,557 WARN  [ELIS][RootClass] composite-id class does not override equals(): us.mn.state.health.lims.testcodes.valueholder.OrganizationSchemaPK
+2021-07-01 10:45:35,558 WARN  [ELIS][RootClass] composite-id class does not override hashCode(): us.mn.state.health.lims.testcodes.valueholder.OrganizationSchemaPK
+Jul 01, 2021 10:45:43 AM org.apache.catalina.util.SessionIdGeneratorBase createSecureRandom
+INFO: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [4,970] milliseconds.
+2021-07-01 10:45:43,992 ERROR [ELIS][FormSet] Form 'organizationForm' already exists in FormSet[default] - ignoring.
+Jul 01, 2021 10:45:44 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-nio-8052"]
+2021-07-01 10:45:44,555 WARN  [ELIS][ValidatorResources] Form 'WebServiceForm' not found for locale 'en_US'
+11741 [http-nio-8052-exec-1] WARN us.mn.state.health.lims.ws.WebServiceAction - Unauthorized atomfeed access attempt from 127.0.0.1 using username 
+2021-07-01 10:45:44,787 WARN  [ELIS][ValidatorResources] Form 'WebServiceForm' not found for locale 'en_US'
+Jul 01, 2021 10:46:56 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-nio-8052"]
+Jul 01, 2021 10:46:56 AM org.apache.tomcat.util.net.NioSelectorPool getSharedSelector
+INFO: Using a shared selector for servlet write/read
+Jul 01, 2021 10:46:56 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Tomcat
+Jul 01, 2021 10:46:56 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/8.0.12
+Jul 01, 2021 10:46:56 AM org.apache.catalina.startup.ContextConfig getDefaultWebXmlFragment
+INFO: No global web.xml found
+42 [localhost-startStop-1] INFO org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+67 [localhost-startStop-1] INFO org.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+67 [localhost-startStop-1] INFO org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.2.0 created.
+68 [localhost-startStop-1] INFO org.quartz.simpl.RAMJobStore - RAMJobStore initialized.
+69 [localhost-startStop-1] INFO org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.2.0) 'OpenELIS-Scheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 4 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+69 [localhost-startStop-1] INFO org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'OpenELIS-Scheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+69 [localhost-startStop-1] INFO org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.2.0
+2021-07-01 10:47:03,030 WARN  [ELIS][RootClass] composite-id class does not override equals(): us.mn.state.health.lims.analyzerimport.valueholder.AnalyzerTestMappingPK
+2021-07-01 10:47:03,030 WARN  [ELIS][RootClass] composite-id class does not override hashCode(): us.mn.state.health.lims.analyzerimport.valueholder.AnalyzerTestMappingPK
+2021-07-01 10:47:03,032 WARN  [ELIS][RootClass] composite-id class does not override equals(): us.mn.state.health.lims.userrole.valueholder.UserRolePK
+2021-07-01 10:47:03,032 WARN  [ELIS][RootClass] composite-id class does not override hashCode(): us.mn.state.health.lims.userrole.valueholder.UserRolePK
+2021-07-01 10:47:03,034 WARN  [ELIS][RootClass] composite-id class does not override equals(): us.mn.state.health.lims.address.valueholder.AddressPK
+2021-07-01 10:47:03,034 WARN  [ELIS][RootClass] composite-id class does not override hashCode(): us.mn.state.health.lims.address.valueholder.AddressPK
+2021-07-01 10:47:03,052 WARN  [ELIS][RootClass] composite-id class does not override hashCode(): us.mn.state.health.lims.requester.valueholder.SampleRequester
+2021-07-01 10:47:03,054 WARN  [ELIS][RootClass] composite-id class does not override equals(): us.mn.state.health.lims.testcodes.valueholder.TestSchemaPK
+2021-07-01 10:47:03,054 WARN  [ELIS][RootClass] composite-id class does not override hashCode(): us.mn.state.health.lims.testcodes.valueholder.TestSchemaPK
+2021-07-01 10:47:03,058 WARN  [ELIS][RootClass] composite-id class does not override equals(): us.mn.state.health.lims.address.valueholder.AddressPK
+2021-07-01 10:47:03,059 WARN  [ELIS][RootClass] composite-id class does not override hashCode(): us.mn.state.health.lims.address.valueholder.AddressPK
+2021-07-01 10:47:03,060 WARN  [ELIS][RootClass] composite-id class does not override equals(): us.mn.state.health.lims.testcodes.valueholder.OrganizationSchemaPK
+2021-07-01 10:47:03,060 WARN  [ELIS][RootClass] composite-id class does not override hashCode(): us.mn.state.health.lims.testcodes.valueholder.OrganizationSchemaPK
+Jul 01, 2021 10:47:07 AM org.apache.catalina.util.SessionIdGeneratorBase createSecureRandom
+INFO: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [3,019] milliseconds.
+2021-07-01 10:47:08,249 ERROR [ELIS][FormSet] Form 'organizationForm' already exists in FormSet[default] - ignoring.
+Jul 01, 2021 10:47:08 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-nio-8052"]
+2021-07-01 10:47:09,083 WARN  [ELIS][ValidatorResources] Form 'WebServiceForm' not found for locale 'en_US'
+7290 [http-nio-8052-exec-5] WARN us.mn.state.health.lims.ws.WebServiceAction - Unauthorized atomfeed access attempt from 127.0.0.1 using username 
+2021-07-01 10:47:09,166 WARN  [ELIS][ValidatorResources] Form 'WebServiceForm' not found for locale 'en_US'
+2021-07-01 10:47:51,553 WARN  [ELIS][ValidatorResources] Form 'loginValidateForm' not found for locale 'en_GB'
+2021-07-01 10:47:51,584 WARN  [ELIS][ValidatorResources] Form 'LabDashboardForm' not found for locale 'en_GB'
+2021-07-01 10:48:09,700 WARN  [ELIS][ValidatorResources] Form 'LabDashboardForm' not found for locale 'en_GB'
+2021-07-01 10:48:19,583 WARN  [ELIS][ValidatorResources] Form 'NonConformityForm' not found for locale 'en_GB'
+2021-07-01 10:48:24,540 WARN  [ELIS][ValidatorResources] Form 'UploadForm' not found for locale 'en_GB'
+122724 [Thread-6] INFO org.quartz.core.QuartzScheduler - Scheduler OpenELIS-Scheduler_$_NON_CLUSTERED started.
+Jul 01, 2021 10:56:06 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-nio-8052"]
+Jul 01, 2021 10:56:06 AM org.apache.tomcat.util.net.NioSelectorPool getSharedSelector
+INFO: Using a shared selector for servlet write/read
+Jul 01, 2021 10:56:06 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Tomcat
+Jul 01, 2021 10:56:06 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/8.0.12
+Jul 01, 2021 10:56:07 AM org.apache.catalina.startup.ContextConfig getDefaultWebXmlFragment
+INFO: No global web.xml found
+56 [localhost-startStop-1] INFO org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+102 [localhost-startStop-1] INFO org.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+102 [localhost-startStop-1] INFO org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.2.0 created.
+103 [localhost-startStop-1] INFO org.quartz.simpl.RAMJobStore - RAMJobStore initialized.
+104 [localhost-startStop-1] INFO org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.2.0) 'OpenELIS-Scheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 4 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+105 [localhost-startStop-1] INFO org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'OpenELIS-Scheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+105 [localhost-startStop-1] INFO org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.2.0
+2021-07-01 10:56:13,606 WARN  [ELIS][RootClass] composite-id class does not override equals(): us.mn.state.health.lims.analyzerimport.valueholder.AnalyzerTestMappingPK
+2021-07-01 10:56:13,607 WARN  [ELIS][RootClass] composite-id class does not override hashCode(): us.mn.state.health.lims.analyzerimport.valueholder.AnalyzerTestMappingPK
+2021-07-01 10:56:13,609 WARN  [ELIS][RootClass] composite-id class does not override equals(): us.mn.state.health.lims.userrole.valueholder.UserRolePK
+2021-07-01 10:56:13,609 WARN  [ELIS][RootClass] composite-id class does not override hashCode(): us.mn.state.health.lims.userrole.valueholder.UserRolePK
+2021-07-01 10:56:13,611 WARN  [ELIS][RootClass] composite-id class does not override equals(): us.mn.state.health.lims.address.valueholder.AddressPK
+2021-07-01 10:56:13,611 WARN  [ELIS][RootClass] composite-id class does not override hashCode(): us.mn.state.health.lims.address.valueholder.AddressPK
+2021-07-01 10:56:13,616 WARN  [ELIS][RootClass] composite-id class does not override hashCode(): us.mn.state.health.lims.requester.valueholder.SampleRequester
+2021-07-01 10:56:13,618 WARN  [ELIS][RootClass] composite-id class does not override equals(): us.mn.state.health.lims.testcodes.valueholder.TestSchemaPK
+2021-07-01 10:56:13,618 WARN  [ELIS][RootClass] composite-id class does not override hashCode(): us.mn.state.health.lims.testcodes.valueholder.TestSchemaPK
+2021-07-01 10:56:13,621 WARN  [ELIS][RootClass] composite-id class does not override equals(): us.mn.state.health.lims.address.valueholder.AddressPK
+2021-07-01 10:56:13,622 WARN  [ELIS][RootClass] composite-id class does not override hashCode(): us.mn.state.health.lims.address.valueholder.AddressPK
+2021-07-01 10:56:13,623 WARN  [ELIS][RootClass] composite-id class does not override equals(): us.mn.state.health.lims.testcodes.valueholder.OrganizationSchemaPK
+2021-07-01 10:56:13,624 WARN  [ELIS][RootClass] composite-id class does not override hashCode(): us.mn.state.health.lims.testcodes.valueholder.OrganizationSchemaPK
+Jul 01, 2021 10:56:17 AM org.apache.catalina.util.SessionIdGeneratorBase createSecureRandom
+INFO: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [2,267] milliseconds.
+2021-07-01 10:56:18,122 ERROR [ELIS][FormSet] Form 'organizationForm' already exists in FormSet[default] - ignoring.
+Jul 01, 2021 10:56:18 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-nio-8052"]
+2021-07-01 10:56:18,448 WARN  [ELIS][ValidatorResources] Form 'WebServiceForm' not found for locale 'en_US'
+6046 [http-nio-8052-exec-1] WARN us.mn.state.health.lims.ws.WebServiceAction - Unauthorized atomfeed access attempt from 127.0.0.1 using username 
+2021-07-01 10:56:18,511 WARN  [ELIS][ValidatorResources] Form 'WebServiceForm' not found for locale 'en_US'
+122646 [Thread-6] INFO org.quartz.core.QuartzScheduler - Scheduler OpenELIS-Scheduler_$_NON_CLUSTERED started.
+Jul 01, 2021 11:02:25 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-nio-8052"]
+Jul 01, 2021 11:02:25 AM org.apache.tomcat.util.net.NioSelectorPool getSharedSelector
+INFO: Using a shared selector for servlet write/read
+Jul 01, 2021 11:02:25 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Tomcat
+Jul 01, 2021 11:02:25 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/8.0.12
+Jul 01, 2021 11:02:25 AM org.apache.catalina.startup.ContextConfig getDefaultWebXmlFragment
+INFO: No global web.xml found
+53 [localhost-startStop-1] INFO org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+100 [localhost-startStop-1] INFO org.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+100 [localhost-startStop-1] INFO org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.2.0 created.
+101 [localhost-startStop-1] INFO org.quartz.simpl.RAMJobStore - RAMJobStore initialized.
+102 [localhost-startStop-1] INFO org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.2.0) 'OpenELIS-Scheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 4 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+103 [localhost-startStop-1] INFO org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'OpenELIS-Scheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+103 [localhost-startStop-1] INFO org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.2.0
+2021-07-01 11:02:32,228 WARN  [ELIS][RootClass] composite-id class does not override equals(): us.mn.state.health.lims.analyzerimport.valueholder.AnalyzerTestMappingPK
+2021-07-01 11:02:32,229 WARN  [ELIS][RootClass] composite-id class does not override hashCode(): us.mn.state.health.lims.analyzerimport.valueholder.AnalyzerTestMappingPK
+2021-07-01 11:02:32,231 WARN  [ELIS][RootClass] composite-id class does not override equals(): us.mn.state.health.lims.userrole.valueholder.UserRolePK
+2021-07-01 11:02:32,231 WARN  [ELIS][RootClass] composite-id class does not override hashCode(): us.mn.state.health.lims.userrole.valueholder.UserRolePK
+2021-07-01 11:02:32,233 WARN  [ELIS][RootClass] composite-id class does not override equals(): us.mn.state.health.lims.address.valueholder.AddressPK
+2021-07-01 11:02:32,233 WARN  [ELIS][RootClass] composite-id class does not override hashCode(): us.mn.state.health.lims.address.valueholder.AddressPK
+2021-07-01 11:02:32,238 WARN  [ELIS][RootClass] composite-id class does not override hashCode(): us.mn.state.health.lims.requester.valueholder.SampleRequester
+2021-07-01 11:02:32,239 WARN  [ELIS][RootClass] composite-id class does not override equals(): us.mn.state.health.lims.testcodes.valueholder.TestSchemaPK
+2021-07-01 11:02:32,240 WARN  [ELIS][RootClass] composite-id class does not override hashCode(): us.mn.state.health.lims.testcodes.valueholder.TestSchemaPK
+2021-07-01 11:02:32,242 WARN  [ELIS][RootClass] composite-id class does not override equals(): us.mn.state.health.lims.address.valueholder.AddressPK
+2021-07-01 11:02:32,244 WARN  [ELIS][RootClass] composite-id class does not override hashCode(): us.mn.state.health.lims.address.valueholder.AddressPK
+2021-07-01 11:02:32,245 WARN  [ELIS][RootClass] composite-id class does not override equals(): us.mn.state.health.lims.testcodes.valueholder.OrganizationSchemaPK
+2021-07-01 11:02:32,245 WARN  [ELIS][RootClass] composite-id class does not override hashCode(): us.mn.state.health.lims.testcodes.valueholder.OrganizationSchemaPK
+Jul 01, 2021 11:02:37 AM org.apache.catalina.util.SessionIdGeneratorBase createSecureRandom
+INFO: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [3,703] milliseconds.
+2021-07-01 11:02:38,800 ERROR [ELIS][FormSet] Form 'organizationForm' already exists in FormSet[default] - ignoring.
+Jul 01, 2021 11:02:38 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-nio-8052"]
+2021-07-01 11:02:39,316 WARN  [ELIS][ValidatorResources] Form 'WebServiceForm' not found for locale 'en_US'
+8445 [http-nio-8052-exec-3] WARN us.mn.state.health.lims.ws.WebServiceAction - Unauthorized atomfeed access attempt from 127.0.0.1 using username 
+2021-07-01 11:02:39,435 WARN  [ELIS][ValidatorResources] Form 'WebServiceForm' not found for locale 'en_US'
+123082 [Thread-6] INFO org.quartz.core.QuartzScheduler - Scheduler OpenELIS-Scheduler_$_NON_CLUSTERED started.
+Jul 01, 2021 11:07:11 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-nio-8052"]
+Jul 01, 2021 11:07:11 AM org.apache.tomcat.util.net.NioSelectorPool getSharedSelector
+INFO: Using a shared selector for servlet write/read
+Jul 01, 2021 11:07:11 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Tomcat
+Jul 01, 2021 11:07:11 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/8.0.12
+Jul 01, 2021 11:07:11 AM org.apache.catalina.startup.ContextConfig getDefaultWebXmlFragment
+INFO: No global web.xml found
+125 [localhost-startStop-1] INFO org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+167 [localhost-startStop-1] INFO org.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+167 [localhost-startStop-1] INFO org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.2.0 created.
+169 [localhost-startStop-1] INFO org.quartz.simpl.RAMJobStore - RAMJobStore initialized.
+170 [localhost-startStop-1] INFO org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.2.0) 'OpenELIS-Scheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 4 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+171 [localhost-startStop-1] INFO org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'OpenELIS-Scheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+171 [localhost-startStop-1] INFO org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.2.0
+2021-07-01 11:07:21,489 WARN  [ELIS][RootClass] composite-id class does not override equals(): us.mn.state.health.lims.analyzerimport.valueholder.AnalyzerTestMappingPK
+2021-07-01 11:07:21,490 WARN  [ELIS][RootClass] composite-id class does not override hashCode(): us.mn.state.health.lims.analyzerimport.valueholder.AnalyzerTestMappingPK
+2021-07-01 11:07:21,496 WARN  [ELIS][RootClass] composite-id class does not override equals(): us.mn.state.health.lims.userrole.valueholder.UserRolePK
+2021-07-01 11:07:21,496 WARN  [ELIS][RootClass] composite-id class does not override hashCode(): us.mn.state.health.lims.userrole.valueholder.UserRolePK
+2021-07-01 11:07:21,501 WARN  [ELIS][RootClass] composite-id class does not override equals(): us.mn.state.health.lims.address.valueholder.AddressPK
+2021-07-01 11:07:21,501 WARN  [ELIS][RootClass] composite-id class does not override hashCode(): us.mn.state.health.lims.address.valueholder.AddressPK
+2021-07-01 11:07:21,509 WARN  [ELIS][RootClass] composite-id class does not override hashCode(): us.mn.state.health.lims.requester.valueholder.SampleRequester
+2021-07-01 11:07:21,514 WARN  [ELIS][RootClass] composite-id class does not override equals(): us.mn.state.health.lims.testcodes.valueholder.TestSchemaPK
+2021-07-01 11:07:21,514 WARN  [ELIS][RootClass] composite-id class does not override hashCode(): us.mn.state.health.lims.testcodes.valueholder.TestSchemaPK
+2021-07-01 11:07:21,517 WARN  [ELIS][RootClass] composite-id class does not override equals(): us.mn.state.health.lims.address.valueholder.AddressPK
+2021-07-01 11:07:21,519 WARN  [ELIS][RootClass] composite-id class does not override hashCode(): us.mn.state.health.lims.address.valueholder.AddressPK
+2021-07-01 11:07:21,520 WARN  [ELIS][RootClass] composite-id class does not override equals(): us.mn.state.health.lims.testcodes.valueholder.OrganizationSchemaPK
+2021-07-01 11:07:21,520 WARN  [ELIS][RootClass] composite-id class does not override hashCode(): us.mn.state.health.lims.testcodes.valueholder.OrganizationSchemaPK
+Jul 01, 2021 11:07:26 AM org.apache.catalina.util.SessionIdGeneratorBase createSecureRandom
+INFO: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [2,762] milliseconds.
+2021-07-01 11:07:27,279 ERROR [ELIS][FormSet] Form 'organizationForm' already exists in FormSet[default] - ignoring.
+Jul 01, 2021 11:07:27 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-nio-8052"]
+2021-07-01 11:07:27,749 WARN  [ELIS][ValidatorResources] Form 'WebServiceForm' not found for locale 'en_US'
+7905 [http-nio-8052-exec-1] WARN us.mn.state.health.lims.ws.WebServiceAction - Unauthorized atomfeed access attempt from 127.0.0.1 using username 
+2021-07-01 11:07:27,943 WARN  [ELIS][ValidatorResources] Form 'WebServiceForm' not found for locale 'en_US'
+123718 [Thread-6] INFO org.quartz.core.QuartzScheduler - Scheduler OpenELIS-Scheduler_$_NON_CLUSTERED started.
+2021-07-01 11:14:59,569 WARN  [ELIS][ValidatorResources] Form 'loginValidateForm' not found for locale 'en_GB'
+2021-07-01 11:14:59,599 WARN  [ELIS][ValidatorResources] Form 'LabDashboardForm' not found for locale 'en_GB'
+Jul 01, 2021 11:21:15 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-nio-8052"]
+Jul 01, 2021 11:21:15 AM org.apache.tomcat.util.net.NioSelectorPool getSharedSelector
+INFO: Using a shared selector for servlet write/read
+Jul 01, 2021 11:21:15 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Tomcat
+Jul 01, 2021 11:21:15 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/8.0.12
+Jul 01, 2021 11:21:16 AM org.apache.catalina.startup.ContextConfig getDefaultWebXmlFragment
+INFO: No global web.xml found
+39 [localhost-startStop-1] INFO org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+77 [localhost-startStop-1] INFO org.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+77 [localhost-startStop-1] INFO org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.2.0 created.
+79 [localhost-startStop-1] INFO org.quartz.simpl.RAMJobStore - RAMJobStore initialized.
+80 [localhost-startStop-1] INFO org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.2.0) 'OpenELIS-Scheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 4 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+80 [localhost-startStop-1] INFO org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'OpenELIS-Scheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+81 [localhost-startStop-1] INFO org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.2.0
+2021-07-01 11:21:22,468 WARN  [ELIS][RootClass] composite-id class does not override equals(): us.mn.state.health.lims.analyzerimport.valueholder.AnalyzerTestMappingPK
+2021-07-01 11:21:22,468 WARN  [ELIS][RootClass] composite-id class does not override hashCode(): us.mn.state.health.lims.analyzerimport.valueholder.AnalyzerTestMappingPK
+2021-07-01 11:21:22,470 WARN  [ELIS][RootClass] composite-id class does not override equals(): us.mn.state.health.lims.userrole.valueholder.UserRolePK
+2021-07-01 11:21:22,470 WARN  [ELIS][RootClass] composite-id class does not override hashCode(): us.mn.state.health.lims.userrole.valueholder.UserRolePK
+2021-07-01 11:21:22,472 WARN  [ELIS][RootClass] composite-id class does not override equals(): us.mn.state.health.lims.address.valueholder.AddressPK
+2021-07-01 11:21:22,472 WARN  [ELIS][RootClass] composite-id class does not override hashCode(): us.mn.state.health.lims.address.valueholder.AddressPK
+2021-07-01 11:21:22,478 WARN  [ELIS][RootClass] composite-id class does not override hashCode(): us.mn.state.health.lims.requester.valueholder.SampleRequester
+2021-07-01 11:21:22,480 WARN  [ELIS][RootClass] composite-id class does not override equals(): us.mn.state.health.lims.testcodes.valueholder.TestSchemaPK
+2021-07-01 11:21:22,480 WARN  [ELIS][RootClass] composite-id class does not override hashCode(): us.mn.state.health.lims.testcodes.valueholder.TestSchemaPK
+2021-07-01 11:21:22,485 WARN  [ELIS][RootClass] composite-id class does not override equals(): us.mn.state.health.lims.address.valueholder.AddressPK
+2021-07-01 11:21:22,486 WARN  [ELIS][RootClass] composite-id class does not override hashCode(): us.mn.state.health.lims.address.valueholder.AddressPK
+2021-07-01 11:21:22,487 WARN  [ELIS][RootClass] composite-id class does not override equals(): us.mn.state.health.lims.testcodes.valueholder.OrganizationSchemaPK
+2021-07-01 11:21:22,487 WARN  [ELIS][RootClass] composite-id class does not override hashCode(): us.mn.state.health.lims.testcodes.valueholder.OrganizationSchemaPK
+2021-07-01 11:21:24,652 ERROR [ELIS][FormSet] Form 'organizationForm' already exists in FormSet[default] - ignoring.
+Jul 01, 2021 11:21:24 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-nio-8052"]
+2021-07-01 11:21:24,950 WARN  [ELIS][ValidatorResources] Form 'WebServiceForm' not found for locale 'en_US'
+3782 [http-nio-8052-exec-1] WARN us.mn.state.health.lims.ws.WebServiceAction - Unauthorized atomfeed access attempt from 127.0.0.1 using username 
+2021-07-01 11:21:25,027 WARN  [ELIS][ValidatorResources] Form 'WebServiceForm' not found for locale 'en_US'
+2021-07-01 11:22:04,755 WARN  [ELIS][ValidatorResources] Form 'loginValidateForm' not found for locale 'en_GB'
+2021-07-01 11:22:04,779 WARN  [ELIS][ValidatorResources] Form 'LabDashboardForm' not found for locale 'en_GB'
+122726 [Thread-6] INFO org.quartz.core.QuartzScheduler - Scheduler OpenELIS-Scheduler_$_NON_CLUSTERED started.
+2021-07-01 11:23:25,364 ERROR [ELIS][OpenMRSEncounterFeedReaderJob] 
+java.lang.NullPointerException
+	at org.bahmni.feed.openelis.feed.job.OpenELISFeedReaderJob.processEvents(OpenELISFeedReaderJob.java:73)
+	at org.bahmni.feed.openelis.feed.job.OpenELISFeedReaderJob.execute(OpenELISFeedReaderJob.java:57)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:207)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:560)
+Jul 01, 2021 11:25:52 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-nio-8052"]
+Jul 01, 2021 11:25:52 AM org.apache.tomcat.util.net.NioSelectorPool getSharedSelector
+INFO: Using a shared selector for servlet write/read
+Jul 01, 2021 11:25:52 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Tomcat
+Jul 01, 2021 11:25:52 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/8.0.12
+Jul 01, 2021 11:25:53 AM org.apache.catalina.startup.ContextConfig getDefaultWebXmlFragment
+INFO: No global web.xml found
+59 [localhost-startStop-1] INFO org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+100 [localhost-startStop-1] INFO org.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+100 [localhost-startStop-1] INFO org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.2.0 created.
+102 [localhost-startStop-1] INFO org.quartz.simpl.RAMJobStore - RAMJobStore initialized.
+103 [localhost-startStop-1] INFO org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.2.0) 'OpenELIS-Scheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 4 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+103 [localhost-startStop-1] INFO org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'OpenELIS-Scheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+104 [localhost-startStop-1] INFO org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.2.0
+2021-07-01 11:26:01,296 WARN  [ELIS][RootClass] composite-id class does not override equals(): us.mn.state.health.lims.analyzerimport.valueholder.AnalyzerTestMappingPK
+2021-07-01 11:26:01,297 WARN  [ELIS][RootClass] composite-id class does not override hashCode(): us.mn.state.health.lims.analyzerimport.valueholder.AnalyzerTestMappingPK
+2021-07-01 11:26:01,299 WARN  [ELIS][RootClass] composite-id class does not override equals(): us.mn.state.health.lims.userrole.valueholder.UserRolePK
+2021-07-01 11:26:01,299 WARN  [ELIS][RootClass] composite-id class does not override hashCode(): us.mn.state.health.lims.userrole.valueholder.UserRolePK
+2021-07-01 11:26:01,300 WARN  [ELIS][RootClass] composite-id class does not override equals(): us.mn.state.health.lims.address.valueholder.AddressPK
+2021-07-01 11:26:01,300 WARN  [ELIS][RootClass] composite-id class does not override hashCode(): us.mn.state.health.lims.address.valueholder.AddressPK
+2021-07-01 11:26:01,312 WARN  [ELIS][RootClass] composite-id class does not override hashCode(): us.mn.state.health.lims.requester.valueholder.SampleRequester
+2021-07-01 11:26:01,314 WARN  [ELIS][RootClass] composite-id class does not override equals(): us.mn.state.health.lims.testcodes.valueholder.TestSchemaPK
+2021-07-01 11:26:01,314 WARN  [ELIS][RootClass] composite-id class does not override hashCode(): us.mn.state.health.lims.testcodes.valueholder.TestSchemaPK
+2021-07-01 11:26:01,319 WARN  [ELIS][RootClass] composite-id class does not override equals(): us.mn.state.health.lims.address.valueholder.AddressPK
+2021-07-01 11:26:01,320 WARN  [ELIS][RootClass] composite-id class does not override hashCode(): us.mn.state.health.lims.address.valueholder.AddressPK
+2021-07-01 11:26:01,321 WARN  [ELIS][RootClass] composite-id class does not override equals(): us.mn.state.health.lims.testcodes.valueholder.OrganizationSchemaPK
+2021-07-01 11:26:01,322 WARN  [ELIS][RootClass] composite-id class does not override hashCode(): us.mn.state.health.lims.testcodes.valueholder.OrganizationSchemaPK
+Jul 01, 2021 11:26:03 AM org.apache.catalina.util.SessionIdGeneratorBase createSecureRandom
+INFO: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [181] milliseconds.
+2021-07-01 11:26:04,356 ERROR [ELIS][FormSet] Form 'organizationForm' already exists in FormSet[default] - ignoring.
+Jul 01, 2021 11:26:04 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-nio-8052"]
+2021-07-01 11:26:04,779 WARN  [ELIS][ValidatorResources] Form 'WebServiceForm' not found for locale 'en_US'
+5532 [http-nio-8052-exec-2] WARN us.mn.state.health.lims.ws.WebServiceAction - Unauthorized atomfeed access attempt from 127.0.0.1 using username 
+2021-07-01 11:26:04,882 WARN  [ELIS][ValidatorResources] Form 'WebServiceForm' not found for locale 'en_US'
+2021-07-01 11:27:04,709 WARN  [ELIS][ValidatorResources] Form 'loginValidateForm' not found for locale 'en_GB'
+2021-07-01 11:27:04,740 WARN  [ELIS][ValidatorResources] Form 'LabDashboardForm' not found for locale 'en_GB'
+123992 [Thread-6] INFO org.quartz.core.QuartzScheduler - Scheduler OpenELIS-Scheduler_$_NON_CLUSTERED started.
+2021-07-01 11:29:20,704 WARN  [ELIS][ValidatorResources] Form 'loginValidateForm' not found for locale 'en_GB'
+2021-07-01 11:29:20,725 WARN  [ELIS][ValidatorResources] Form 'LabDashboardForm' not found for locale 'en_GB'

@@ -15,17 +15,17 @@
 	}
 
     .ui-autocomplete-custom{
-       font-family: Verdana,Arial,Helvetica,sans-serif;
+       font-family: "Montserrat Regular";
        font-size: 10pt;
     }
 
     .ui-menu-item{
-       font-family: Verdana,Arial,Helvetica,sans-serif;
+       font-family: "Montserrat Regular";
        font-size: 12px;
     }
     
     .active-ui-menu-item{
-       font-family: Verdana,Arial,Helvetica,sans-serif;
+       font-family: "Montserrat Regular";
        font-size: 12px;
     }
     
